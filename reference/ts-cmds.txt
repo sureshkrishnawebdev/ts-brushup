@@ -1,0 +1,6 @@
+1. Installation 
+    globally - npm install -g typescript    
+    locally - npm install typescript
+
+2. npm init - to setup a node project
+3. "start": "tsc " - Adding tsc into the script stag in package.json file

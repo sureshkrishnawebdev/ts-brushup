@@ -1,0 +1,14 @@
+{
+  "name": "ts-brushup",
+  "version": "1.0.0",
+  "description": "Ts concepts brushup",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc "
+  },
+  "author": "suresh",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  }
+}

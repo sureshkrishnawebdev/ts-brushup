@@ -1,0 +1,1 @@
+1. add path / folder inside start cmd under scripts tab - to isolate all ts and js files in different folders.
