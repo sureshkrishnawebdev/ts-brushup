@@ -1,0 +1,36 @@
+    tsc === typescript compiler
+
+    TYPES
+    ----
+    1. Primitive types
+        1.1. number - includes both number, float, double
+        1.2. string
+        1.3. boolean 
+
+    note: 'type casing' 
+            --> string, number ✅
+            not --> interface String, interface Number ❌
+
+    2. Type Assignment vs Type Inference
+       
+       Type Assignment 
+       ----------------
+        1. a.k.a Explicit typing
+        2. Used when we are not aware about the values else 
+           'tsc' will assign a type 'any' by default which is not recommended.
+        eg:             
+            let user; ❌
+            let user: string = 'Suresh'; ❌
+            const user: string = 'Suresh'; ❌
+            let userName: string;  ✅
+
+        Type Inference
+        --------------
+        1. a.k.a Implicit typing
+        2. Used when we've known values or when we assign a value
+        3. By default 'Types' will be infered by 'tsc'
+        eg: 
+            const user: string = 'Suresh'; ❌
+            const user = 'Suresh';  ✅ - infered as string(on hover)
+            let age = 10;
+            age = 'Hey man' ❌  - will yell at us 
