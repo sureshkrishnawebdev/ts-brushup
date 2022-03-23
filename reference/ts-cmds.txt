@@ -4,3 +4,6 @@
 
 2. npm init - to setup a node project
 3. "start": "tsc " - Adding tsc into the script stag in package.json file
+    eg: npm start ts/main.ts
+    or
+    "start":"lite-server" - npm install --save-dev lite-server

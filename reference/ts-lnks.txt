@@ -1,0 +1,12 @@
+
+
+Extensions
+    1 - Eslint
+    2 - tslint - deprecated in favor of Eslint
+    3 - prettier - code formatter
+    4 - material icon theme
+    5 - path intellisense - plugin that autocompletes filenames
+
+Dev Dependencies
+    1 - lite-server - reloads the browser whenever file changes
+
